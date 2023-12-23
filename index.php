@@ -59,7 +59,7 @@ if ($_SERVER ['REQUEST_METHOD'] == 'POST'){
 
   // SE NAO TIVER ERRO ENVIAR PARA A PAGINA DE OBRIGADO
   if(($erronome=="") && ($erroemail=="") && ($errosenha=="") && ($errorepetesenha=="")){
-    header('Location: obrigado.php');
+    header('Location: thankyou.php');
   }
 
 }
